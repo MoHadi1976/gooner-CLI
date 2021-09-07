@@ -1,0 +1,19 @@
+{
+  "name": "gooner-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoHadi1976/gooner-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoHadi1976/gooner-CLI/issues"
+  },
+  "homepage": "https://github.com/MoHadi1976/gooner-CLI#readme"
+}
