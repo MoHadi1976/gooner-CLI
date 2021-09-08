@@ -7,21 +7,17 @@ const readFile = () => {
     return [];
   }
 };
-
 const saveFile = (listArr) => {
   fs.writeFileSync("./src/dataBase/storage.json", JSON.stringify(listArr));
 };
-
 exports.addPlayer = (playerObj) => {
   const list = readFile();
   list.push(playerObj);
   saveFile(list);
 };
-
 exports.listPlayers = () => {
   console.log(readFile());
 };
-
 exports.updatePlayer = (filter, goonerVar) => {
   const list = readFile();
   let updateIndex;
@@ -38,7 +34,6 @@ exports.updatePlayer = (filter, goonerVar) => {
     console.log("Player not found");
   }
 };
-
 exports.deletePlayer = (filter) => {
   const list = readFile();
   let deleteIndex;
